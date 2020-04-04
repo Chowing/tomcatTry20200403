@@ -27,7 +27,6 @@ public class HttpServer {
     public static void main(String[] args) {
         HttpServer server = new HttpServer();
         server.await();
-//      System.out.printf(WEB_ROOT);//D:\IdeaProjects\tomcatTry20200403\webroot
     }
 
     public void await() {
